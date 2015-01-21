@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="MakeStudentsPass" Id="b52afe64-9345-40f9-b0eb-a95b077808dc" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.80813e0f-9933-4e71-9611-ecae11c03b03.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="899c3e4b-5b67-405f-a550-83979fa7a475" Version="1.1" Url="http://test.telerikacademy.com/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="3ad372be-45c2-4672-886c-c949e9bc8300" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="b72eabb2-f1cc-49dd-8662-ffbc989e9d2a" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Users/Auth/Login" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam14.Accommodation" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ces=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam15.CanEvaluateCourse" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ces=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam16.CanDoTestExam" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ces=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam17.CanDoPracticalExam" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ces=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam18.IsDeleted" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ces=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="UsernameOrEmail" Value="AdminDummy" RecordedValue="AdminDummy" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="123456" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="7d47c272-4497-417e-a7e0-ca4d36fbc037" Version="1.1" Url="http://test.telerikacademy.com/Administration/Navigation" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="73dcfbc1-7e11-44d2-a6d5-a93d337591d9" Version="1.1" Url="http://test.telerikacademy.com/Administration_Courses/UsersInCourses" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration/Navigation" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam384.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam451.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam518.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam585.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam652.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam719.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.CourseInstanceId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ue&quot;:&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;},{&quot;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.IsLiveParticipant" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="al: &quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.ExcellentResult" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="al: &quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.HomeworksCount" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.AllHomeworksCount" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.PracticalExamEvaluationsCount" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.PracticalExamUsefulEvaluationsCount" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam11.PracticalExamUselessEvaluationsCount" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.HelpingOthersPoints" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam13.ForumPoints" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="aabaa45d-d9ac-438a-b596-4dc0770007cf" Version="1.1" Url="http://test.telerikacademy.com/Administration_Courses/UsersInCourses/UsersInCoursesRead" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration_Courses/UsersInCourses" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="sort" Value="UserInCourseId-desc" RecordedValue="UserInCourseId-desc" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam2.page}}" UrlEncode="True" />
+        <FormPostParameter Name="pageSize" Value="25" RecordedValue="25" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="group" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="filter" Value="CourseInstanceId~eq~'199'" RecordedValue="CourseInstanceId~eq~'199'" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="ad8ed356-6563-4e57-83e2-100096f17136" Version="1.1" Url="http://test.telerikacademy.com/Administration_Courses/UsersInCourses/ListOfUsers" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration_Courses/UsersInCourses" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="skip" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam719.page}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Blogic%5D" Value="and" RecordedValue="and" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5Bvalue%5D" Value="{{v3.VioletaUsers3#csv.username}}" RecordedValue="goshor996" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5Boperator%5D" Value="startwith" RecordedValue="startwith" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5Bfield%5D" Value="Username" RecordedValue="Username" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5BignoreCase%5D" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="b00d9427-9a60-4cf7-ae59-8eb2ce04ff38" Version="1.1" Url="http://test.telerikacademy.com/Administration_Courses/UsersInCourses/UsersInCoursesRead" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration_Courses/UsersInCourses" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="sort" Value="UserInCourseId-desc" RecordedValue="UserInCourseId-desc" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam3.page}}" UrlEncode="True" />
+        <FormPostParameter Name="pageSize" Value="25" RecordedValue="25" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="group" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="filter" Value="{{v3.VioletaUsers3#csv.username}}" RecordedValue="CourseInstanceId~eq~'199'~and~Username~eq~'goshor996'" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="00b592f3-ae49-40c4-89e1-27fb2c67900d" Version="1.1" Url="http://test.telerikacademy.com/Administration_Courses/UsersInCourses/UsersInCoursesUpdate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration_Courses/UsersInCourses" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="sort" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="group" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="filter" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UserInCourseId" Value="269" RecordedValue="269" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UserId" Value="1357" RecordedValue="1357" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Username" Value="goshor996" RecordedValue="goshor996" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FirstName" Value="Гошоров" RecordedValue="Гошоров" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="LastName" Value="Гошоров" RecordedValue="Гошоров" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="CourseInstanceId" Value="199" RecordedValue="199" CorrelationBinding="{{FormPostParam4.CourseInstanceId}}" UrlEncode="True" />
+        <FormPostParameter Name="IsLiveParticipant" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam5.IsLiveParticipant}}" UrlEncode="True" />
+        <FormPostParameter Name="Accommodation" Value="false" RecordedValue="false" CorrelationBinding="{{FormPostParam14.Accommodation}}" UrlEncode="True" />
+        <FormPostParameter Name="ExcellentResult" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam6.ExcellentResult}}" UrlEncode="True" />
+        <FormPostParameter Name="CanEvaluateCourse" Value="false" RecordedValue="false" CorrelationBinding="{{FormPostParam15.CanEvaluateCourse}}" UrlEncode="True" />
+        <FormPostParameter Name="CanDoTestExam" Value="false" RecordedValue="false" CorrelationBinding="{{FormPostParam16.CanDoTestExam}}" UrlEncode="True" />
+        <FormPostParameter Name="CanDoPracticalExam" Value="false" RecordedValue="false" CorrelationBinding="{{FormPostParam17.CanDoPracticalExam}}" UrlEncode="True" />
+        <FormPostParameter Name="HomeworksCount" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam7.HomeworksCount}}" UrlEncode="True" />
+        <FormPostParameter Name="AllHomeworksCount" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam8.AllHomeworksCount}}" UrlEncode="True" />
+        <FormPostParameter Name="PracticalExamEvaluationsCount" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam9.PracticalExamEvaluationsCount}}" UrlEncode="True" />
+        <FormPostParameter Name="PracticalExamUsefulEvaluationsCount" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam10.PracticalExamUsefulEvaluationsCount}}" UrlEncode="True" />
+        <FormPostParameter Name="PracticalExamUselessEvaluationsCount" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam11.PracticalExamUselessEvaluationsCount}}" UrlEncode="True" />
+        <FormPostParameter Name="HelpingOthersPoints" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam12.HelpingOthersPoints}}" UrlEncode="True" />
+        <FormPostParameter Name="ForumPoints" Value="0" RecordedValue="0" CorrelationBinding="{{FormPostParam13.ForumPoints}}" UrlEncode="True" />
+        <FormPostParameter Name="BirthDay" Value="08/08/1999 00:00:00" RecordedValue="08/08/1999 00:00:00" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Email" Value="goshor996@test.com" RecordedValue="goshor996@test.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="City" Value="Асеновград" RecordedValue="Асеновград" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="University" Value="Университет в чужбина" RecordedValue="Университет в чужбина" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FacultyName" Value="яверт" RecordedValue="яверт" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UniversitySpeciality" Value="яверт" RecordedValue="яверт" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="SchoolName" Value="яверт" RecordedValue="яверт" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UniversityId" Value="53" RecordedValue="53" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="IsDeleted" Value="false" RecordedValue="false" CorrelationBinding="{{FormPostParam18.IsDeleted}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="2fdf128d-b7a2-4854-9586-0674668a858a" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/LogOut" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="235fdb43-4c95-4d85-bde0-a3d6ba2746a6" Version="1.1" Url="https://localhost:26143/skypectoc/v1/pnr/parse" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Pragma" Value="no-cache" />
+          </Headers>
+          <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAGkAZAAiADoAIgAwACIALAAiAGwAYQBuAGcAdQBhAGcAZQBzACIAOgAiAGUAbgAiACwAIgB0AGUAeAB0ACIAOgAiADwARABJAFYAIABjAGwAYQBzAHMAPQBcACIAXwBsAGkAXAAiAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBTAGsAaQBuAEwAaQBnAGgAdAAgAHAAbAB1AGcAaQBuAEYAbwBuAHQASABlAGwAdgBlAHQAaQBjAGEAXAAiAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBfADQAcwA3AGMAXAAiACAAcwB0AHkAbABlAD0AXAAiAGgAZQBpAGcAaAB0ADoAIAA0ADYANgBwAHgAOwBcACIAPgA8AEQASQBWACAAYwBsAGEAcwBzAD0AXAAiAHAAYQBzACAAdQBpAEIAbwB4AEwAaQBnAGgAdABiAGwAdQBlACAAYgBvAHQAdABvAG0AYgBvAHIAZABlAHIAXAAiAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgB1AGkASABlAGEAZABlAHIAXAAiAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBjAGwAZQBhAHIAZgBpAHgAIAB1AGkASABlAGEAZABlAHIAVABvAHAAXAAiAD4APABEAEkAVgA+ADwASAAzACAAYwBsAGEAcwBzAD0AXAAiAHUAaQBIAGUAYQBkAGUAcgBUAGkAdABsAGUAXAAiAD4ARgBpAG4AZAAgAHUAcwAgAG8AbgAgAEYAYQBjAGUAYgBvAG8AawA8AC8ASAAzAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBjAGwAZQBhAHIAZgBpAHgAIABwAGEAbQBcACIAPgA8AEEAIAB0AGEAYgBpAG4AZABlAHgAPQBcACIALQAxAFwAIgAgAGMAbABhAHMAcwA9AFwAIgBfADgAbwAgAF8AOAByACAAbABmAGwAbwBhAHQAIABfAG8AaABlAFwAIgAgAGEAcgBpAGEALQBoAGkAZABkAGUAbgA9AFwAIgB0AHIAdQBlAFwAIgAgAGgAcgBlAGYAPQBcACIAaAB0AHQAcABzADoALwAvAHcAdwB3AC4AZgBhAGMAZQBiAG8AbwBrAC4AYwBvAG0ALwBUAGUAbABlAHIAaQBrAEEAYwBhAGQAZQBtAHkAXAAiACAAdABhAHIAZwBlAHQAPQBcACIAXwBiAGwAYQBuAGsAXAAiAD4APABJAE0ARwAgAGMAbABhAHMAcwA9AFwAIgBfAHMAMAAgAF8AcgB3ACAAaQBtAGcAXAAiACAAYQBsAHQAPQBcACIAXAAiACAAcwByAGMAPQBcACIAaAB0AHQAcABzADoALwAvAGYAYgBjAGQAbgAtAHAAcgBvAGYAaQBsAGUALQBhAC4AYQBrAGEAbQBhAGkAaABkAC4AbgBlAHQALwBoAHAAcgBvAGYAaQBsAGUALQBhAGsALQB4AGYAYQAxAC8AdgAvAHQAMQAuADAALQAxAC8AYwAyADQALgAyADQALgAzADAAMgAuADMAMAAyAC8AcwA1ADAAeAA1ADAALwAxADgAMwAyAF8ANwA0ADAAOAA3ADgAOQA1ADkAMgA3ADEANwAyADQAXwAxADYANwA2ADEAMwA3ADkANwAwAF8AbgAuAGoAcABnAD8AbwBoAD0ANgA4ADUAOQAxADgAYQA2AGIAZgAyAGMAZgAyAGMAMAA5AGEAYwA5ADUAZgBiAGEAZQBjAGYAMQBlADQAZQBjACYAYQBtAHAAOwBvAGUAPQA1ADQARQBCADcAQgBEADIAJgBhAG0AcAA7AF8AXwBnAGQAYQBfAF8APQAxADQAMgAzADIAOAA5ADQAMwA1AF8AMgA0ADkANQAzAGEAYQA3ADQAMwAxADgAYQA5ADgANAA2ADkAMwAxADMAMQAyADkAOABjADcAYwA3ADEAZQBlAFwAIgA+ADwALwBBAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBfADgAdQAgAF8ANAAyAGUAZgBcACIAPgA8AFQAQQBCAEwARQAgAGMAbABhAHMAcwA9AFwAIgB1AGkARwByAGkAZAAgAF8ANQAxAG0AegBcACIAIABjAGUAbABsAHMAcABhAGMAaQBuAGcAPQBcACIAMABcACIAIABjAGUAbABsAHAAYQBkAGQAaQBuAGcAPQBcACIAMABcACIAPgA8AFQAQgBPAEQAWQA+ADwAVABSACAAYwBsAGEAcwBzAD0AXAAiAF8ANQAxAG0AeABcACIAPgA8AFQARAAgAGMAbABhAHMAcwA9AFwAIgBfADUAMQBtAC0AIABfADUAMQBtAHcAXAAiAD4APABTAFAAQQBOACAAYwBsAGEAcwBzAD0AXAAiAGYAcwBsACAAZgB3AGIAXAAiAD4APABBACAAaAByAGUAZgA9AFwAIgBoAHQAdABwAHMAOgAvAC8AdwB3AHcALgBmAGEAYwBlAGIAbwBvAGsALgBjAG8AbQAvAFQAZQBsAGUAcgBpAGsAQQBjAGEAZABlAG0AeQBcACIAIAB0AGEAcgBnAGUAdAA9AFwAIgBfAGIAbABhAG4AawBcACIAPgBUAGUAbABlAHIAaQBrACAAQQBjAGEAZABlAG0AeQA8AC8AQQA+ADwALwBTAFAAQQBOAD4APAAvAFQARAA+ADwALwBUAFIAPgA8AFQAUgAgAGMAbABhAHMAcwA9AFwAIgBfADUAMQBtAHgAXAAiAD4APABUAEQAIABjAGwAYQBzAHMAPQBcACIAXwA1ADEAbQAtACAAXwA1ADEAbQB3AFwAIgA+ADwARABJAFYAIABjAGwAYQBzAHMAPQBcACIAcAB0AHMAXAAiAD4APABUAEEAQgBMAEUAIABjAGwAYQBzAHMAPQBcACIAdQBpAEcAcgBpAGQAIABfADUAMQBtAHoAXAAiACAAYwBlAGwAbABzAHAAYQBjAGkAbgBnAD0AXAAiADAAXAAiACAAYwBlAGwAbABwAGEAZABkAGkAbgBnAD0AXAAiADAAXAAiAD4APABUAEIATwBEAFkAPgA8AFQAUgAgAGMAbABhAHMAcwA9AFwAIgBfADUAMQBtAHgAXAAiAD4APABUAEQAIABjAGwAYQBzAHMAPQBcACIAXwA1ADEAbQAtAFwAIgA+ADwARABJAFYAPgA8AEYATwBSAE0AIABpAGQAPQBcACIAdQBfADAAXwAwAFwAIgAgAG8AbgBzAHUAYgBtAGkAdAA9AFwAIgByAGUAdAB1AHIAbgAgAHcAaQBuAGQAbwB3AC4ARQB2AGUAbgB0ACAAJgBhAG0AcAA7ACYAYQBtAHAAOwAgAEUAdgBlAG4AdAAuAF8AXwBpAG4AbABpAG4AZQBTAHUAYgBtAGkAdAAgACYAYQBtAHAAOwAmAGEAbQBwADsAIABFAHYAZQBuAHQALgBfAF8AaQBuAGwAaQBuAGUAUwB1AGIAbQBpAHQAKAB0AGgAaQBzACwAZQB2AGUAbgB0ACkAXAAiACAAYQBjAHQAaQBvAG4APQBcACIALwBwAGwAdQBnAGkAbgBzAC8AbABpAGsAZQBiAG8AeAAvAGMAbwBuAG4AZQBjAHQAXAAiACAAbQBlAHQAaABvAGQAPQBcACIAcABvAHMAdABcACIAIABhAGoAYQB4AGkAZgB5AD0AXAAiAC8AcABsAHUAZwBpAG4AcwAvAGwAaQBrAGUAYgBvAHgALwBjAG8AbgBuAGUAYwB0AFwAIgAgAHIAZQBsAD0AXAAiAGEAcwB5AG4AYwBcACIAPgA8AEkATgBQAFUAVAAgAG4AYQBtAGUAPQBcACIAbABzAGQAXAAiACAAdAB5AHAAZQA9AFwAIgBoAGkAZABkAGUAbgBcACIAIAB2AGEAbAB1AGUAPQBcACIAQQBWAHIAMgBiADUAZABhAFwAIgAgAGEAdQB0AG8AYwBvAG0AcABsAGUAdABlAD0AXAAiAG8AZgBmAFwAIgA+ADwASQBOAFAAVQBUACAAbgBhAG0AZQA9AFwAIgBoAHIAZQBmAFwAIgAgAHQAeQBwAGUAPQBcACIAaABpAGQAZABlAG4AXAAiACAAdgBhAGwAdQBlAD0AXAAiAGgAdAB0AHAAcwA6AC8ALwBmAGEAYwBlAGIAbwBvAGsALgBjAG8AbQAvAFQAZQBsAGUAcgBpAGsAQQBjAGEAZABlAG0AeQBcACIAIABhAHUAdABvAGMAbwBtAHAAbABlAHQAZQA9AFwAIgBvAGYAZgBcACIAPgA8AEkATgBQAFUAVAAgAG4AYQBtAGUAPQBcACIAbgBvAGIAbwBvAHQAbABvAGEAZABcACIAIAB0AHkAcABlAD0AXAAiAGgAaQBkAGQAZQBuAFwAIgAgAGEAdQB0AG8AYwBvAG0AcABsAGUAdABlAD0AXAAiAG8AZgBmAFwAIgA+ADwASQBOAFAAVQBUACAAbgBhAG0AZQA9AFwAIgBpAGYAcgBhAG0AZQBfAHIAZQBmAGUAcgBlAHIAXAAiACAAdAB5AHAAZQA9AFwAIgBoAGkAZABkAGUAbgBcACIAIAB2AGEAbAB1AGUAPQBcACIAaAB0AHQAcAA6AC8ALwB0AGUAcwB0AC4AdABlAGwAZQByAGkAawBhAGMAYQBkAGUAbQB5AC4AYwBvAG0ALwBcACIAIABhAHUAdABvAGMAbwBtAHAAbABlAHQAZQA9AFwAIgBvAGYAZgBcACIAPgA8AEkATgBQAFUAVAAgAG4AYQBtAGUAPQBcACIAcgBfAHQAcwBcACIAIAB0AHkAcABlAD0AXAAiAGgAaQBkAGQAZQBuAFwAIgAgAHYAYQBsAHUAZQA9AFwAIgAxADQAMQA1ADcAMgAyADQAMgAyAFwAIgAgAGEAdQB0AG8AYwBvAG0AcABsAGUAdABlAD0AXAAiAG8AZgBmAFwAIgA+ADwASQBOAFAAVQBUACAAbgBhAG0AZQA9AFwAIgByAGUAZgBcACIAIAB0AHkAcABlAD0AXAAiAGgAaQBkAGQAZQBuAFwAIgAgAGEAdQB0AG8AYwBvAG0AcABsAGUAdABlAD0AXAAiAG8AZgBmAFwAIgA+ADwASQBOAFAAVQBUACAAbgBhAG0AZQA9AFwAIgB4AGYAYgBtAGwAXAAiACAAdAB5AHAAZQA9AFwAIgBoAGkAZABkAGUAbgBcACIAIABhAHUAdABvAGMAbwBtAHAAbABlAHQAZQA9AFwAIgBvAGYAZgBcACIAPgA8AEQASQBWACAAYwBsAGEAcwBzAD0AXAAiAHAAbAB1AGcAaQBuAEMAbwBuAG4AZQBjAHQAQgB1AHQAdABvAG4AXAAiAD4APABEAEkAVgAgAHQAaQB0AGwAZQA9AFwAIgBcACIAIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4AIABwAGwAdQBnAGkAbgBDAG8AbgBuAGUAYwB0AEIAdQB0AHQAbwBuAEQAaQBzAGMAbwBuAG4AZQBjAHQAZQBkAFwAIgA+ADwARABJAFYAPgA8AEQASQBWACAAYwBsAGEAcwBzAD0AXAAiAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAEMAbwBuAHQAYQBpAG4AZQByAFwAIgA+ADwARABJAFYAIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4ASQBtAGEAZwBlAFwAIgA+ADwAQgBVAFQAVABPAE4AIAB0AHkAcABlAD0AXAAiAHMAdQBiAG0AaQB0AFwAIgA+ADwASQAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBJAGMAbwBuACAAaQBtAGcAIABzAHAAXwBwAGwAdQBnAGkAbgAtAGIAdQB0AHQAbwBuACAAcwB4AF8AcABsAHUAZwBpAG4ALQBiAHUAdAB0AG8AbgBfAGYAYQB2AGIAbAB1AGUAXAAiAD4APAAvAEkAPgA8AC8AQgBVAFQAVABPAE4APgA8AC8ARABJAFYAPgA8AFMAUABBAE4AIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4ATABhAGIAZQBsAFwAIgA+AEwAaQBrAGUAPAAvAFMAUABBAE4APgA8AC8ARABJAFYAPgA8AC8ARABJAFYAPgA8AC8ARABJAFYAPgA8AEQASQBWACAAdABpAHQAbABlAD0AXAAiAFwAIgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgAgAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAFAAcgBlAHMAcwBlAGQAIABwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBYACAAcABsAHUAZwBpAG4AQwBvAG4AbgBlAGMAdABCAHUAdAB0AG8AbgBDAG8AbgBuAGUAYwB0AGUAZAAgAGgAaQBkAGQAZQBuAF8AZQBsAGUAbQBcACIAPgA8AEQASQBWAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBDAG8AbgB0AGEAaQBuAGUAcgBcACIAPgA8AEQASQBWACAAYwBsAGEAcwBzAD0AXAAiAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAEkAbQBhAGcAZQBcACIAPgA8AEIAVQBUAFQATwBOACAAdAB5AHAAZQA9AFwAIgBzAHUAYgBtAGkAdABcACIAPgA8AEkAIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4ASQBjAG8AbgAgAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAFgATwBmAGYAIABpAG0AZwAgAHMAcABfAHAAbAB1AGcAaQBuAC0AYgB1AHQAdABvAG4AIABzAHgAXwBwAGwAdQBnAGkAbgAtAGIAdQB0AHQAbwBuAF8AYwBoAGIAbAB1AGUAXAAiAD4APAAvAEkAPgA8AEkAIAB0AGkAdABsAGUAPQBcACIATABpAGsAZQBcACIAIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4ASQBjAG8AbgAgAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAFgATwBuACAAaQBtAGcAIABzAHAAXwBwAGwAdQBnAGkAbgAtAGIAdQB0AHQAbwBuACAAcwB4AF8AcABsAHUAZwBpAG4ALQBiAHUAdAB0AG8AbgBfAHgAYgBsAHUAZQBcACIAPgA8AC8ASQA+ADwALwBCAFUAVABUAE8ATgA+ADwALwBEAEkAVgA+ADwAUwBQAEEATgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBMAGEAYgBlAGwAXAAiAD4ATABpAGsAZQA8AC8AUwBQAEEATgA+ADwALwBEAEkAVgA+ADwALwBEAEkAVgA+ADwALwBEAEkAVgA+ADwALwBEAEkAVgA+ADwALwBGAE8AUgBNAD4APAAvAEQASQBWAD4APAAvAFQARAA+ADwAVABEACAAYwBsAGEAcwBzAD0AXAAiAF8ANQAxAG0ALQAgAHAAbABzACAAXwA1ADEAbQB3AFwAIgA+ADwARABJAFYAPgA8AFMAUABBAE4AIABjAGwAYQBzAHMAPQBcACIAaABpAGQAZABlAG4AXwBlAGwAZQBtAFwAIgAgAGkAZAA9AFwAIgB1AF8AMABfADEAXAAiAD4AWQBvAHUAIABsAGkAawBlACAAdABoAGkAcwAuADwALwBTAFAAQQBOAD4APABTAFAAQQBOACAAaQBkAD0AXAAiAHUAXwAwAF8AMgBcACIAPgAxADQALAAyADMAOQA8AC8AUwBQAEEATgA+ADwALwBEAEkAVgA+ADwALwBUAEQAPgA8AC8AVABSAD4APAAvAFQAQgBPAEQAWQA+ADwALwBUAEEAQgBMAEUAPgA8AC8ARABJAFYAPgA8AC8AVABEAD4APAAvAFQAUgA+ADwALwBUAEIATwBEAFkAPgA8AC8AVABBAEIATABFAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBtAGgAcwAgAHAAbAB1AGcAaQBuAEIAbwB4AEQAaQB2AGkAZABlAHIAXAAiAD4APAAvAEQASQBWAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBwAGgAbQAgAHAAbAB1AGcAaQBuAEwAaQBrAGUAYgBvAHgAUwB0AHIAZQBhAG0AXAAiACAAcwB0AHkAbABlAD0AXAAiAGgAZQBpAGcAaAB0ADoAIAAzADQAMwBwAHgAOwBcACIAPgA8AEQASQBWACAAaQBkAD0AXAAiAHAAbAB1AGcAaQBuAEwAaQBrAGUAYgBvAHgAUwB0AHIAZQBhAG0AXAAiAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBtAGgAcwAgAHAAbAB1AGcAaQBuAEIAbwB4AEQAaQB2AGkAZABlAHIAXAAiAD4APAAvAEQASQBWAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBjAGwAZQBhAHIAZgBpAHgAIABwAHYAcwAgAHAAaABtAFwAIgA+ADwAQQAgAHQAYQBiAGkAbgBkAGUAeAA9AFwAIgAtADEAXAAiACAAYwBsAGEAcwBzAD0AXAAiAF8AOABvACAAXwA4AHIAIABsAGYAbABvAGEAdAAgAF8AbwBoAGUAXAAiACAAYQByAGkAYQAtAGgAaQBkAGQAZQBuAD0AXAAiAHQAcgB1AGUAXAAiACAAaAByAGUAZgA9AFwAIgBoAHQAdABwAHMAOgAvAC8AdwB3AHcALgBmAGEAYwBlAGIAbwBvAGsALgBjAG8AbQAvAGgAZQBsAHAALwA/AHAAYQBnAGUAPQAyADAAOQAwADgAOQAyADIAMgA0ADYANAA1ADAAMwBcACIAIAB0AGEAcgBnAGUAdAA9AFwAIgBfAGIAbABhAG4AawBcACIAPgA8AEkAIABjAGwAYQBzAHMAPQBcACIAaQBtAGcAIABzAHAAXwBwAGwAdQBnAGkAbgAtAGIAdQB0AHQAbwBuACAAcwB4AF8AcABsAHUAZwBpAG4ALQBiAHUAdAB0AG8AbgBfAGYAYQB2AFwAIgA+ADwALwBJAD4APAAvAEEAPgA8AEQASQBWACAAYwBsAGEAcwBzAD0AXAAiAF8AOAB1ACAAXwA0ADIAZQBmAFwAIgA+ADwARABJAFYAIABjAGwAYQBzAHMAPQBcACIAZgBzAHMAIABmAHcAbgAgAGYAYwBnAFwAIgA+ADwAQQAgAGMAbABhAHMAcwA9AFwAIgB1AGkATABpAG4AawBTAHUAYgB0AGwAZQBcACIAIABoAHIAZQBmAD0AXAAiAGgAdAB0AHAAcwA6AC8ALwB3AHcAdwAuAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAC8AaABlAGwAcAAvAD8AcABhAGcAZQA9ADIAMAA5ADAAOAA5ADIAMgAyADQANgA0ADUAMAAzAFwAIgAgAHQAYQByAGcAZQB0AD0AXAAiAF8AYgBsAGEAbgBrAFwAIgA+AEYAYQBjAGUAYgBvAG8AawAgAHMAbwBjAGkAYQBsACAAcABsAHUAZwBpAG4APAAvAEEAPgA8AC8ARABJAFYAPgA8AC8ARABJAFYAPgA8AC8ARABJAFYAPgA8AC8ARABJAFYAPgA8AFMAQwBSAEkAUABUAD4AKABmAHUAbgBjAHQAaQBvAG4AKAB3AGkAZAB0AGgALAAgAGgAZQBpAGcAaAB0ACwAIABpAGQALAAgAGMAYQBsAGwAYgBhAGMAawAsACAAbwByAGkAZwBpAG4ALAAgAGQAbwBtAGEAaQBuACkAIAB7ACAAaQBmACgAaQBkACkAewB2AGEAcgAgAGUAPQBkAG8AYwB1AG0AZQBuAHQALgBnAGUAdABFAGwAZQBtAGUAbgB0AEIAeQBJAGQAKABpAGQAKQA7AGkAZgAoAHcAaQBkAHQAaAAhAD0APQAtADEAKQB7AGUALgBzAHQAeQBsAGUALgB3AGkAZAB0AGgAPQB3AGkAZAB0AGgAKwAnAHAAeAAnADsAfQBlAGwAcwBlACAAdwBpAGQAdABoAD0AdwBpAG4AZABvAHcALgBnAGUAdABDAG8AbQBwAHUAdABlAGQAUwB0AHkAbABlAD8ATQBhAHQAaAAuAGMAZQBpAGwAKABwAGEAcgBzAGUARgBsAG8AYQB0ACgAZwBlAHQAQwBvAG0AcAB1AHQAZQBkAFMAdAB5AGwAZQAoAGUAKQAuAHcAaQBkAHQAaAApACkAfAB8AGUALgBvAGYAZgBzAGUAdABXAGkAZAB0AGgAOgBlAC4AbwBmAGYAcwBlAHQAVwBpAGQAdABoADsAaQBmACgAaABlAGkAZwBoAHQAPQA9AD0ALQAxACkAaABlAGkAZwBoAHQAPQBlAC4AbwBmAGYAcwBlAHQASABlAGkAZwBoAHQAOwB9AHYAYQByACAAbQBlAHMAcwBhAGcAZQA9ACcAdAB5AHAAZQA9AHIAZQBzAGkAegBlACYAYwBiAD0AJwArAGMAYQBsAGwAYgBhAGMAawArACcAJgB3AGkAZAB0AGgAPQAnACsAdwBpAGQAdABoACsAJwAmAGgAZQBpAGcAaAB0AD0AJwArAGgAZQBpAGcAaAB0ADsAOwAgAGQAbwBjAHUAbQBlAG4AdAAuAGQAbwBtAGEAaQBuAD0AJwBmAGEAYwBlAGIAbwBvAGsALgBjAG8AbQAnADsAKABmAHUAbgBjAHQAaQBvAG4AKAApAHsAdgBhAHIAIABhAD0AdwBpAG4AZABvAHcALgBvAHAAZQBuAGUAcgB8AHwAdwBpAG4AZABvAHcALgBwAGEAcgBlAG4AdAAsAGIAPQAnAGYAYgBfAHgAZABtAF8AZgByAGEAbQBlAF8AJwArAGwAbwBjAGEAdABpAG8AbgAuAHAAcgBvAHQAbwBjAG8AbAAuAHIAZQBwAGwAYQBjAGUAKAAnADoAJwAsACcAJwApADsAZgB1AG4AYwB0AGkAbwBuACAAYwAoACkAewB0AHIAeQB7AGEALgBmAHIAYQBtAGUAcwBbAGIAXQAuAHAAcgBvAHgAeQBNAGUAcwBzAGEAZwBlACgAbQBlAHMAcwBhAGcAZQAsAG8AcgBpAGcAaQBuACkAOwB9AGMAYQB0AGMAaAAoAGUAKQB7AHMAZQB0AFQAaQBtAGUAbwB1AHQAKABjACwAMQAwADAAKQA7AH0AfQBmAHUAbgBjAHQAaQBvAG4AIABkACgAKQB7AF8AXwBmAGIATgBhAHQAaQB2AGUALgBwAG8AcwB0AE0AZQBzAHMAYQBnAGUAKABtAGUAcwBzAGEAZwBlACwAbwByAGkAZwBpAG4AKQA7AH0AaQBmACgAdwBpAG4AZABvAHcAPQA9AHQAbwBwACYAJgAvAEYAQgBBAE4AXABcAC8AXABcAHcAKwA7AC8AaQAuAHQAZQBzAHQAKABuAGEAdgBpAGcAYQB0AG8AcgAuAHUAcwBlAHIAQQBnAGUAbgB0ACkAKQB7AGkAZgAoAHcAaQBuAGQAbwB3AC4AXwBfAGYAYgBOAGEAdABpAHYAZQAmACYAXwBfAGYAYgBOAGEAdABpAHYAZQAuAHAAbwBzAHQATQBlAHMAcwBhAGcAZQApAHsAZAAoACkAOwB9AGUAbABzAGUAIAB3AGkAbgBkAG8AdwAuAGEAZABkAEUAdgBlAG4AdABMAGkAcwB0AGUAbgBlAHIAKAAnAGYAYgBOAGEAdABpAHYAZQBSAGUAYQBkAHkAJwAsAGQAKQA7AH0AZQBsAHMAZQAgAGMAKAApADsAfQApACgAKQA7ADsAIAB9ACkAKAA2ADIAMAAsACAANAA2ADgALAAgAFwAIgBcACIALAAgAFwAIgBmADEAYQBhAGEAZgBmAGYAZQAzADEAMAA2ADQAMwBcACIALAAgAFwAIgBoAHQAdABwADoAXABcAC8AXABcAC8AdABlAHMAdAAuAHQAZQBsAGUAcgBpAGsAYQBjAGEAZABlAG0AeQAuAGMAbwBtAFwAIgAsACAAXAAiAHQAZQBzAHQALgB0AGUAbABlAHIAaQBrAGEAYwBhAGQAZQBtAHkALgBjAG8AbQBcACIAKQA7ADwALwBTAEMAUgBJAFAAVAA+ADwALwBEAEkAVgA+ADwALwBEAEkAVgA+ADwAUwBDAFIASQBQAFQAPgBmAHUAbgBjAHQAaQBvAG4AIABlAG4AdgBGAGwAdQBzAGgAKABhACkAewBmAHUAbgBjAHQAaQBvAG4AIABiACgAYwApAHsAZgBvAHIAKAB2AGEAcgAgAGQAIABpAG4AIABhACkAYwBbAGQAXQA9AGEAWwBkAF0AOwB9AGkAZgAoAHcAaQBuAGQAbwB3AC4AcgBlAHEAdQBpAHIAZQBMAGEAegB5ACkAewB3AGkAbgBkAG8AdwAuAHIAZQBxAHUAaQByAGUATABhAHoAeQAoAFsAJwBFAG4AdgAnAF0ALABiACkAOwB9AGUAbABzAGUAewBFAG4AdgA9AHcAaQBuAGQAbwB3AC4ARQBuAHYAfAB8AHsAfQA7AGIAKABFAG4AdgApADsAfQB9AGUAbgB2AEYAbAB1AHMAaAAoAHsAXAAiAGEAagBhAHgAcABpAHAAZQBfAHQAbwBrAGUAbgBcACIAOgBcACIAQQBYAGgAWQB6AHEAcQA2AHIANgAtAGsAZgBNADMAXwBcACIALABcACIAbgBvAF8AYwBvAG8AawBpAGUAcwBcACIAOgAxACwAXAAiAGwAaABzAGgAXAAiADoAXAAiAFIAQQBRAEYARwBFAFQARABaAFwAIgB9ACkAOwA8AC8AUwBDAFIASQBQAFQAPgA8AFMAQwBSAEkAUABUAD4AUwBlAHIAdgBlAHIASgBTAFEAdQBlAHUAZQAuAGEAZABkACgAZgB1AG4AYwB0AGkAbwBuACgAKQB7AHIAZQBxAHUAaQByAGUATABhAHoAeQAoAFsAXAAiAEIAbwBvAHQAbABvAGEAZABlAHIAXAAiAF0ALAAgAGYAdQBuAGMAdABpAG8AbgAoAEIAbwBvAHQAbABvAGEAZABlAHIAKQAgAHsAQgBvAG8AdABsAG8AYQBkAGUAcgAuAGUAbgBhAGIAbABlAEIAbwBvAHQAbABvAGEAZAAoAHsAXAAiAFIAZQBhAGMAdABcACIAOgB7AFwAIgByAGUAcwBvAHUAcgBjAGUAcwBcACIAOgBbAF0ALABcACIAbQBvAGQAdQBsAGUAXAAiADoAdAByAHUAZQB9ACwAXAAiAEUAeABjAGUAcAB0AGkAbwBuAEQAaQBhAGwAbwBnAFwAIgA6AHsAXAAiAHIAZQBzAG8AdQByAGMAZQBzAFwAIgA6AFsAXQAsAFwAIgBtAG8AZAB1AGwAZQBcACIAOgB0AHIAdQBlAH0ALABcACIAQQBzAHkAbgBjAEQATwBNAFwAIgA6AHsAXAAiAHIAZQBzAG8AdQByAGMAZQBzAFwAIgA6AFsAXQAsAFwAIgBtAG8AZAB1AGwAZQBcACIAOgB0AHIAdQBlAH0ALABcACIAQwBvAG4AZgBpAHIAbQBhAHQAaQBvAG4ARABpAGEAbABvAGcAXAAiADoAewBcACIAcgBlAHMAbwB1AHIAYwBlAHMAXAAiADoAWwBdACwAXAAiAG0AbwBkAHUAbABlAFwAIgA6AHQAcgB1AGUAfQAsAFwAIgBEAGkAYQBsAG8AZwBcACIAOgB7AFwAIgByAGUAcwBvAHUAcgBjAGUAcwBcACIAOgBbAF0ALABcACIAbQBvAGQAdQBsAGUAXAAiADoAdAByAHUAZQB9AH0AKQA7AH0AKQA7AH0AKQA7ADwALwBTAEMAUgBJAFAAVAA+ADwAUwBDAFIASQBQAFQAPgBcAG4AXABuAFwAbgBTAGUAcgB2AGUAcgBKAFMAUQB1AGUAdQBlAC4AYQBkAGQAKAB7AFwAIgBpAG4AcwB0AGEAbgBjAGUAcwBcACIAOgBbAFsAXAAiAG0AXwAwAF8AMgBcACIALABbAFwAIgBQAGwAdQBnAGkAbgBDAG8AbgBuAGUAYwB0AEIAdQB0AHQAbwBuAFwAIgAsAFwAIgBtAF8AMABfADEAXAAiAF0ALABbAHsAXAAiAHAAbAB1AGcAaQBuAFwAIgA6AFwAIgBsAGkAawBlAGIAbwB4AFwAIgAsAFwAIgBwAGwAdQBnAGkAbgBhAGMAdABpAG8AbgBcACIAOgBuAHUAbABsACwAXAAiAGkAZABlAG4AdABpAGYAaQBlAHIAXAAiADoAXAAiAGgAdAB0AHAAcwA6AFwAXAAvAFwAXAAvAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAFwAXAAvAFQAZQBsAGUAcgBpAGsAQQBjAGEAZABlAG0AeQBcACIALABcACIAYwBvAG4AbgBlAGMAdABlAGQAXAAiADoAZgBhAGwAcwBlACwAXAAiAGMAYQBuAHAAZQByAHMAbwBuAGEAbABpAHoAZQBcACIAOgBmAGEAbABzAGUALABcACIAYQB1AHQAbwBzAHUAYgBtAGkAdABcACIAOgBmAGEAbABzAGUALABcACIAZgBvAHIAbQBcACIAOgB7AFwAIgBfAF8AbQBcACIAOgBcACIAbQBfADAAXwAxAFwAIgB9ACwAXAAiAGMAbABpAGMAawBvAHAAZQBuAHMAZABpAGEAbABvAGcAXAAiADoAZgBhAGwAcwBlAH0AXQAsADEAXQAsAFsAXAAiAG0AXwAwAF8AMABcACIALABbAFwAIgBQAGwAdQBnAGkAbgBMAGkAawBlAGIAbwB4AFwAIgBdACwAWwAyADQANwA4ADMAOAA3ADcAMQA5ADAAOQAwADgAMQAsAGYAYQBsAHMAZQAsADYAMgAwAF0ALAAxAF0AXQAsAFwAIgBlAGwAZQBtAGUAbgB0AHMAXAAiADoAWwBbAFwAIgBtAF8AMABfADEAXAAiACwAXAAiAHUAXwAwAF8AMABcACIALAAyAF0ALABbAFwAIgBtAF8AMABfADQAXAAiACwAXAAiAHUAXwAwAF8AMQBcACIALAAyAF0ALABbAFwAIgBtAF8AMABfADUAXAAiACwAXAAiAHUAXwAwAF8AMgBcACIALAAyAF0ALABbAFwAIgBtAF8AMABfADMAXAAiACwAXAAiAHUAXwAwAF8AMABcACIALAAyAF0AXQAsAFwAIgBkAGUAZgBpAG4AZQBcACIAOgBbAFsAXAAiAEIAbwBvAHQAbABvAGEAZABlAHIAQwBvAG4AZgBpAGcAXAAiACwAWwBdACwAewB9ACwAMwAyADkAXQAsAFsAXAAiAEEAcwB5AG4AYwBSAGUAcQB1AGUAcwB0AEMAbwBuAGYAaQBnAFwAIgAsAFsAXQAsAHsAXAAiAHIAZQB0AHIAeQBPAG4ATgBlAHQAdwBvAHIAawBFAHIAcgBvAHIAXAAiADoAXAAiADEAXAAiAH0ALAAzADIAOABdACwAWwBcACIARABUAFMARwBJAG4AaQB0AGkAYQBsAEQAYQB0AGEAXAAiACwAWwBdACwAewB9ACwAMgA1ADgAXQAsAFsAXAAiAFMAaQB0AGUARABhAHQAYQBcACIALABbAF0ALAB7AFwAIgByAGUAdgBpAHMAaQBvAG4AXAAiADoAMQA0ADgAOAA5ADcAMgAsAFwAIgB0AGkAZQByAFwAIgA6AFwAIgBcACIALABcACIAcAB1AHMAaABfAHAAaABhAHMAZQBcACIAOgBcACIAVgAzAFwAIgAsAFwAIgBwAGsAZwBfAGMAbwBoAG8AcgB0AFwAIgA6AFwAIgBFAFgAUAAxADoARABFAEYAQQBVAEwAVABcACIALABcACIAdgBpAHAAXAAiADoAXAAiADMAMQAuADEAMwAuADkAMwAuADEANgAxAFwAIgB9ACwAMwAxADcAXQAsAFsAXAAiAEMAdQByAHIAZQBuAHQAVQBzAGUAcgBJAG4AaQB0AGkAYQBsAEQAYQB0AGEAXAAiACwAWwBdACwAewBcACIAVQBTAEUAUgBfAEkARABcACIAOgBcACIAMABcACIALABcACIAQQBDAEMATwBVAE4AVABfAEkARABcACIAOgBcACIAMABcACIAfQAsADIANwAwAF0ALABbAFwAIgBVAHMAZQByAEEAZwBlAG4AdABEAGEAdABhAFwAIgAsAFsAXQAsAHsAXAAiAGIAcgBvAHcAcwBlAHIAQQByAGMAaABpAHQAZQBjAHQAdQByAGUAXAAiADoAXAAiADMAMgBcACIALABcACIAYgByAG8AdwBzAGUAcgBGAHUAbABsAFYAZQByAHMAaQBvAG4AXAAiADoAXAAiADEAMQAuADAAXAAiACwAXAAiAGIAcgBvAHcAcwBlAHIATQBpAG4AbwByAFYAZQByAHMAaQBvAG4AXAAiADoAMAAsAFwAIgBiAHIAbwB3AHMAZQByAE4AYQBtAGUAXAAiADoAXAAiAEkARQBcACIALABcACIAYgByAG8AdwBzAGUAcgBWAGUAcgBzAGkAbwBuAFwAIgA6ADEAMQAsAFwAIgBkAGUAdgBpAGMAZQBOAGEAbQBlAFwAIgA6AFwAIgBVAG4AawBuAG8AdwBuAFwAIgAsAFwAIgBlAG4AZwBpAG4AZQBOAGEAbQBlAFwAIgA6AFwAIgBUAHIAaQBkAGUAbgB0AFwAIgAsAFwAIgBlAG4AZwBpAG4AZQBWAGUAcgBzAGkAbwBuAFwAIgA6AFwAIgA3AC4AMABcACIALABcACIAcABsAGEAdABmAG8AcgBtAEEAcgBjAGgAaQB0AGUAYwB0AHUAcgBlAFwAIgA6AFwAIgA2ADQAXAAiACwAXAAiAHAAbABhAHQAZgBvAHIAbQBOAGEAbQBlAFwAIgA6AFwAIgBXAGkAbgBkAG8AdwBzAFwAIgAsAFwAIgBwAGwAYQB0AGYAbwByAG0AVgBlAHIAcwBpAG8AbgBcACIAOgBcACIANwBcACIALABcACIAcABsAGEAdABmAG8AcgBtAEYAdQBsAGwAVgBlAHIAcwBpAG8AbgBcACIAOgBcACIANwBcACIAfQAsADUAMgA3AF0ALABbAFwAIgBDAHUAcgByAGUAbgB0AEMAbwBtAG0AdQBuAGkAdAB5AEkAbgBpAHQAaQBhAGwARABhAHQAYQBcACIALABbAF0ALAB7AH0ALAA0ADkAMABdACwAWwBcACIASQBTAEIAXAAiACwAWwBdACwAewB9ACwAMwAzADAAXQAsAFsAXAAiAEwAUwBEAFwAIgAsAFsAXQAsAHsAXAAiAHQAbwBrAGUAbgBcACIAOgBcACIAQQBWAHIAMgBiADUAZABhAFwAIgB9ACwAMwAyADMAXQAsAFsAXAAiAEIAYQBuAHoAYQBpAEMAbwBuAGYAaQBnAFwAIgAsAFsAXQAsAHsAXAAiAEUAWABQAEkAUgBZAFwAIgA6ADgANgA0ADAAMAAwADAAMAAsAFwAIgBNAEEAWABfAFMASQBaAEUAXAAiADoAMQAwADAAMAAwACwAXAAiAE0AQQBYAF8AVwBBAEkAVABcACIAOgAxADUAMAAwADAAMAAsAFwAIgBSAEUAUwBUAE8AUgBFAF8AVwBBAEkAVABcACIAOgAxADUAMAAwADAAMAAsAFwAIgBiAGwAYQBjAGsAbABpAHMAdABcACIAOgBbAFwAIgB0AGkAbQBlAF8AcwBwAGUAbgB0AFwAIgBdACwAXAAiAGcAawBzAFwAIgA6AHsAXAAiAGEAZABhAHAAdABlAHIAaABvAG8AawBzAFwAIgA6AHQAcgB1AGUALABcACIAYgBvAG8AcwB0AGUAZABfAHAAYQBnAGUAbABpAGsAZQBzAFwAIgA6AHQAcgB1AGUALABcACIAYgBvAG8AcwB0AGUAZABfAHcAZQBiAHMAaQB0AGUAXAAiADoAdAByAHUAZQAsAFwAIgBiAG8AbwBzAHQAZQBkAF8AcABvAHMAdABzAFwAIgA6AHQAcgB1AGUALABcACIAagBzAGwAbwBnAGcAZQByAFwAIgA6AHQAcgB1AGUALABcACIAbQBpAG4AeQBfAGMAbwBtAHAAcgBlAHMAcwBpAG8AbgBcACIAOgB0AHIAdQBlACwAXAAiAG0AZQByAGMAdQByAHkAXwBzAGUAbgBkAF8AZQByAHIAbwByAF8AbABvAGcAZwBpAG4AZwBcACIAOgB0AHIAdQBlACwAXAAiAHAAYQBnAGUAcwBfAGMAbABpAGUAbgB0AF8AbABvAGcAZwBpAG4AZwBcACIAOgB0AHIAdQBlACwAXAAiAHQAaQBtAGUAXwBzAHAAZQBuAHQAXwBiAGkAdABfAGEAcgByAGEAeQBcACIAOgB0AHIAdQBlACwAXAAiAHQAaQBtAGUAXwBzAHAAZQBuAHQAXwBkAGUAYgB1AGcAXAAiADoAdAByAHUAZQAsAFwAIgB1AHMAZQByAGEAYwB0AGkAbwBuAFwAIgA6AHQAcgB1AGUALABcACIAdgBpAGQAZQBvAHMAXAAiADoAdAByAHUAZQAsAFwAIgB2AGkAcwBpAGIAaQBsAGkAdAB5AF8AdAByAGEAYwBrAGkAbgBnAFwAIgA6AHQAcgB1AGUALABcACIAdgBpAHQAYQBsAHMAXAAiADoAdAByAHUAZQB9AH0ALAA3AF0ALABbAFwAIgBUAHIAYQBjAGsAaQBuAGcAQwBvAG4AZgBpAGcAXAAiACwAWwBdACwAewBcACIAZABvAG0AYQBpAG4AXAAiADoAXAAiAGgAdAB0AHAAcwA6AFwAXAAvAFwAXAAvAHAAaQB4AGUAbAAuAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAFwAIgB9ACwAMwAyADUAXQBdACwAXAAiAHIAZQBxAHUAaQByAGUAXAAiADoAWwBbAFwAIgBVAG4AdgBlAHIAaQBmAGkAZQBkAFgARABcACIALABcACIAcwBlAHQAQwBoAGEAbgBuAGUAbABVAHIAbABcACIALABbAF0ALABbAFwAIgBoAHQAdABwADoAXABcAC8AXABcAC8AcwB0AGEAdABpAGMALgBhAGsALgBmAGEAYwBlAGIAbwBvAGsALgBjAG8AbQBcAFwALwBjAG8AbgBuAGUAYwB0AFwAXAAvAHgAZABfAGEAcgBiAGkAdABlAHIAXABcAC8AUQBqAEsAMgBoAFcAdgA2AHUAYQBrAC4AagBzAD8AdgBlAHIAcwBpAG8AbgA9ADQAMQAjAGMAYgA9AGYAMQBhAGEAYQBmAGYAZgBlADMAMQAwADYANAAzACYAZABvAG0AYQBpAG4APQB0AGUAcwB0AC4AdABlAGwAZQByAGkAawBhAGMAYQBkAGUAbQB5AC4AYwBvAG0AJgBvAHIAaQBnAGkAbgA9AGgAdAB0AHAAXABcAHUAMAAwADIANQAzAEEAXABcAHUAMAAwADIANQAyAEYAXABcAHUAMAAwADIANQAyAEYAdABlAHMAdAAuAHQAZQBsAGUAcgBpAGsAYQBjAGEAZABlAG0AeQAuAGMAbwBtAFwAXAB1ADAAMAAyADUAMgBGAGYAMgA4AGUAYQA5ADgAMwBkADEANQBlADIAZgA2ACYAcgBlAGwAYQB0AGkAbwBuAD0AcABhAHIAZQBuAHQALgBwAGEAcgBlAG4AdABcACIAXQBdACwAWwBcACIAUABsAHUAZwBpAG4AWABEAFIAZQBhAGQAeQBcACIAXQAsAFsAXAAiAG0AXwAwAF8AMABcACIAXQAsAFsAXAAiAFAAbAB1AGcAaQBuAFIAZQB0AHUAcgBuAFwAIgAsAFwAIgBzAHkAbgBjAFAAbAB1AGcAaQBuAHMAXAAiACwAWwBdACwAWwBdAF0ALABbAFwAIgBtAF8AMABfADIAXAAiAF0ALABbAFwAIgBQAGwAdQBnAGkAbgBDAG8AbgBuAGUAYwB0AGkAbwBuAFwAIgAsAFwAIgBpAG4AaQB0AFwAIgAsAFsAXAAiAG0AXwAwAF8ANABcACIALABcACIAbQBfADAAXwA1AFwAIgBdACwAWwBbAFsAXAAiAGgAdAB0AHAAcwA6AFwAXAAvAFwAXAAvAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAFwAXAAvAFQAZQBsAGUAcgBpAGsAQQBjAGEAZABlAG0AeQBcACIALAB7AFwAIgBfAF8AbQBcACIAOgBcACIAbQBfADAAXwA0AFwAIgB9ACwAXAAiAGgAaQBkAGQAZQBuAF8AZQBsAGUAbQBcACIALABcACIAcABsAGEAdABmAG8AcgBtAFwAXAAvAHAAbAB1AGcAaQBuAHMAXABcAC8AZABpAHMAYwBvAG4AbgBlAGMAdABcACIAXQAsAFsAXAAiAGgAdAB0AHAAcwA6AFwAXAAvAFwAXAAvAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAFwAXAAvAFQAZQBsAGUAcgBpAGsAQQBjAGEAZABlAG0AeQBcACIALAB7AFwAIgBfAF8AbQBcACIAOgBcACIAbQBfADAAXwA1AFwAIgB9ACwAXAAiAGgAaQBkAGQAZQBuAF8AZQBsAGUAbQBcACIALABcACIAcABsAGEAdABmAG8AcgBtAFwAXAAvAHAAbAB1AGcAaQBuAHMAXABcAC8AYwBvAG4AbgBlAGMAdABcACIAXQBdAF0AXQAsAFsAXAAiAEEAcgB0AGkAbABsAGUAcgB5AFwAIgBdACwAWwBcACIAQQBzAHkAbgBjAFMAaQBnAG4AYQBsAFwAIgBdAF0AfQApADsAXABuAFwAbgA8AC8AUwBDAFIASQBQAFQAPgAiACwAIgB1AHIAbAAiADoAIgBoAHQAdABwAHMAOgAvAC8AdwB3AHcALgBmAGEAYwBlAGIAbwBvAGsALgBjAG8AbQAvAHAAbAB1AGcAaQBuAHMALwBsAGkAawBlAF8AYgBvAHgALgBwAGgAcAAiAH0ACgA=</StringHttpBody>
+        </Request>
+        <Request Method="POST" Guid="99d9da24-de34-4b20-970c-3d3ef5393333" Version="1.1" Url="https://localhost:26143/skypectoc/v1/pnr/parse" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Pragma" Value="no-cache" />
+          </Headers>
+          <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAGkAZAAiADoAIgAwACIALAAiAGwAYQBuAGcAdQBhAGcAZQBzACIAOgAiAGUAbgAiACwAIgB0AGUAeAB0ACIAOgAiADwAVABCAE8ARABZAD4APABUAFIAIABjAGwAYQBzAHMAPQBcACIAXwA1ADEAbQB4AFwAIgA+ADwAVABEACAAYwBsAGEAcwBzAD0AXAAiAF8ANQAxAG0ALQAgAF8ANQAxAG0AdwBcACIAPgA8AFMAUABBAE4AIABjAGwAYQBzAHMAPQBcACIAZgBzAGwAIABmAHcAYgBcACIAPgA8AEEAIABoAHIAZQBmAD0AXAAiAGgAdAB0AHAAcwA6AC8ALwB3AHcAdwAuAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAC8AVABlAGwAZQByAGkAawBBAGMAYQBkAGUAbQB5AFwAIgAgAHQAYQByAGcAZQB0AD0AXAAiAF8AYgBsAGEAbgBrAFwAIgA+AFQAZQBsAGUAcgBpAGsAIABBAGMAYQBkAGUAbQB5ADwALwBBAD4APAAvAFMAUABBAE4APgA8AC8AVABEAD4APAAvAFQAUgA+ADwAVABSACAAYwBsAGEAcwBzAD0AXAAiAF8ANQAxAG0AeABcACIAPgA8AFQARAAgAGMAbABhAHMAcwA9AFwAIgBfADUAMQBtAC0AIABfADUAMQBtAHcAXAAiAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBwAHQAcwBcACIAPgA8AFQAQQBCAEwARQAgAGMAbABhAHMAcwA9AFwAIgB1AGkARwByAGkAZAAgAF8ANQAxAG0AegBcACIAIABjAGUAbABsAHMAcABhAGMAaQBuAGcAPQBcACIAMABcACIAIABjAGUAbABsAHAAYQBkAGQAaQBuAGcAPQBcACIAMABcACIAPgA8AFQAQgBPAEQAWQA+ADwAVABSACAAYwBsAGEAcwBzAD0AXAAiAF8ANQAxAG0AeABcACIAPgA8AFQARAAgAGMAbABhAHMAcwA9AFwAIgBfADUAMQBtAC0AXAAiAD4APABEAEkAVgA+ADwARgBPAFIATQAgAGkAZAA9AFwAIgB1AF8AMABfADAAXAAiACAAbwBuAHMAdQBiAG0AaQB0AD0AXAAiAHIAZQB0AHUAcgBuACAAdwBpAG4AZABvAHcALgBFAHYAZQBuAHQAIAAmAGEAbQBwADsAJgBhAG0AcAA7ACAARQB2AGUAbgB0AC4AXwBfAGkAbgBsAGkAbgBlAFMAdQBiAG0AaQB0ACAAJgBhAG0AcAA7ACYAYQBtAHAAOwAgAEUAdgBlAG4AdAAuAF8AXwBpAG4AbABpAG4AZQBTAHUAYgBtAGkAdAAoAHQAaABpAHMALABlAHYAZQBuAHQAKQBcACIAIABhAGMAdABpAG8AbgA9AFwAIgAvAHAAbAB1AGcAaQBuAHMALwBsAGkAawBlAGIAbwB4AC8AYwBvAG4AbgBlAGMAdABcACIAIABtAGUAdABoAG8AZAA9AFwAIgBwAG8AcwB0AFwAIgAgAGEAagBhAHgAaQBmAHkAPQBcACIALwBwAGwAdQBnAGkAbgBzAC8AbABpAGsAZQBiAG8AeAAvAGMAbwBuAG4AZQBjAHQAXAAiACAAcgBlAGwAPQBcACIAYQBzAHkAbgBjAFwAIgA+ADwASQBOAFAAVQBUACAAbgBhAG0AZQA9AFwAIgBsAHMAZABcACIAIAB0AHkAcABlAD0AXAAiAGgAaQBkAGQAZQBuAFwAIgAgAHYAYQBsAHUAZQA9AFwAIgBBAFYAcgAyAGIANQBkAGEAXAAiACAAYQB1AHQAbwBjAG8AbQBwAGwAZQB0AGUAPQBcACIAbwBmAGYAXAAiAD4APABJAE4AUABVAFQAIABuAGEAbQBlAD0AXAAiAGgAcgBlAGYAXAAiACAAdAB5AHAAZQA9AFwAIgBoAGkAZABkAGUAbgBcACIAIAB2AGEAbAB1AGUAPQBcACIAaAB0AHQAcABzADoALwAvAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAC8AVABlAGwAZQByAGkAawBBAGMAYQBkAGUAbQB5AFwAIgAgAGEAdQB0AG8AYwBvAG0AcABsAGUAdABlAD0AXAAiAG8AZgBmAFwAIgA+ADwASQBOAFAAVQBUACAAbgBhAG0AZQA9AFwAIgBuAG8AYgBvAG8AdABsAG8AYQBkAFwAIgAgAHQAeQBwAGUAPQBcACIAaABpAGQAZABlAG4AXAAiACAAYQB1AHQAbwBjAG8AbQBwAGwAZQB0AGUAPQBcACIAbwBmAGYAXAAiAD4APABJAE4AUABVAFQAIABuAGEAbQBlAD0AXAAiAGkAZgByAGEAbQBlAF8AcgBlAGYAZQByAGUAcgBcACIAIAB0AHkAcABlAD0AXAAiAGgAaQBkAGQAZQBuAFwAIgAgAHYAYQBsAHUAZQA9AFwAIgBoAHQAdABwADoALwAvAHQAZQBzAHQALgB0AGUAbABlAHIAaQBrAGEAYwBhAGQAZQBtAHkALgBjAG8AbQAvAFwAIgAgAGEAdQB0AG8AYwBvAG0AcABsAGUAdABlAD0AXAAiAG8AZgBmAFwAIgA+ADwASQBOAFAAVQBUACAAbgBhAG0AZQA9AFwAIgByAF8AdABzAFwAIgAgAHQAeQBwAGUAPQBcACIAaABpAGQAZABlAG4AXAAiACAAdgBhAGwAdQBlAD0AXAAiADEANAAxADUANwAyADIANAAyADIAXAAiACAAYQB1AHQAbwBjAG8AbQBwAGwAZQB0AGUAPQBcACIAbwBmAGYAXAAiAD4APABJAE4AUABVAFQAIABuAGEAbQBlAD0AXAAiAHIAZQBmAFwAIgAgAHQAeQBwAGUAPQBcACIAaABpAGQAZABlAG4AXAAiACAAYQB1AHQAbwBjAG8AbQBwAGwAZQB0AGUAPQBcACIAbwBmAGYAXAAiAD4APABJAE4AUABVAFQAIABuAGEAbQBlAD0AXAAiAHgAZgBiAG0AbABcACIAIAB0AHkAcABlAD0AXAAiAGgAaQBkAGQAZQBuAFwAIgAgAGEAdQB0AG8AYwBvAG0AcABsAGUAdABlAD0AXAAiAG8AZgBmAFwAIgA+ADwARABJAFYAIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQwBvAG4AbgBlAGMAdABCAHUAdAB0AG8AbgBcACIAPgA8AEQASQBWACAAdABpAHQAbABlAD0AXAAiAFwAIgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgAgAHAAbAB1AGcAaQBuAEMAbwBuAG4AZQBjAHQAQgB1AHQAdABvAG4ARABpAHMAYwBvAG4AbgBlAGMAdABlAGQAXAAiAD4APABEAEkAVgA+ADwARABJAFYAIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4AQwBvAG4AdABhAGkAbgBlAHIAXAAiAD4APABEAEkAVgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBJAG0AYQBnAGUAXAAiAD4APABCAFUAVABUAE8ATgAgAHQAeQBwAGUAPQBcACIAcwB1AGIAbQBpAHQAXAAiAD4APABJACAAYwBsAGEAcwBzAD0AXAAiAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAEkAYwBvAG4AIABpAG0AZwAgAHMAcABfAHAAbAB1AGcAaQBuAC0AYgB1AHQAdABvAG4AIABzAHgAXwBwAGwAdQBnAGkAbgAtAGIAdQB0AHQAbwBuAF8AZgBhAHYAYgBsAHUAZQBcACIAPgA8AC8ASQA+ADwALwBCAFUAVABUAE8ATgA+ADwALwBEAEkAVgA+ADwAUwBQAEEATgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBMAGEAYgBlAGwAXAAiAD4ATABpAGsAZQA8AC8AUwBQAEEATgA+ADwALwBEAEkAVgA+ADwALwBEAEkAVgA+ADwALwBEAEkAVgA+ADwARABJAFYAIAB0AGkAdABsAGUAPQBcACIAXAAiACAAYwBsAGEAcwBzAD0AXAAiAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuACAAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4AUAByAGUAcwBzAGUAZAAgAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAFgAIABwAGwAdQBnAGkAbgBDAG8AbgBuAGUAYwB0AEIAdQB0AHQAbwBuAEMAbwBuAG4AZQBjAHQAZQBkACAAaABpAGQAZABlAG4AXwBlAGwAZQBtAFwAIgA+ADwARABJAFYAPgA8AEQASQBWACAAYwBsAGEAcwBzAD0AXAAiAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAEMAbwBuAHQAYQBpAG4AZQByAFwAIgA+ADwARABJAFYAIABjAGwAYQBzAHMAPQBcACIAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4ASQBtAGEAZwBlAFwAIgA+ADwAQgBVAFQAVABPAE4AIAB0AHkAcABlAD0AXAAiAHMAdQBiAG0AaQB0AFwAIgA+ADwASQAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBJAGMAbwBuACAAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4AWABPAGYAZgAgAGkAbQBnACAAcwBwAF8AcABsAHUAZwBpAG4ALQBiAHUAdAB0AG8AbgAgAHMAeABfAHAAbAB1AGcAaQBuAC0AYgB1AHQAdABvAG4AXwBjAGgAYgBsAHUAZQBcACIAPgA8AC8ASQA+ADwASQAgAHQAaQB0AGwAZQA9AFwAIgBMAGkAawBlAFwAIgAgAGMAbABhAHMAcwA9AFwAIgBwAGwAdQBnAGkAbgBCAHUAdAB0AG8AbgBJAGMAbwBuACAAcABsAHUAZwBpAG4AQgB1AHQAdABvAG4AWABPAG4AIABpAG0AZwAgAHMAcABfAHAAbAB1AGcAaQBuAC0AYgB1AHQAdABvAG4AIABzAHgAXwBwAGwAdQBnAGkAbgAtAGIAdQB0AHQAbwBuAF8AeABiAGwAdQBlAFwAIgA+ADwALwBJAD4APAAvAEIAVQBUAFQATwBOAD4APAAvAEQASQBWAD4APABTAFAAQQBOACAAYwBsAGEAcwBzAD0AXAAiAHAAbAB1AGcAaQBuAEIAdQB0AHQAbwBuAEwAYQBiAGUAbABcACIAPgBMAGkAawBlADwALwBTAFAAQQBOAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APAAvAEQASQBWAD4APAAvAEYATwBSAE0APgA8AC8ARABJAFYAPgA8AC8AVABEAD4APABUAEQAIABjAGwAYQBzAHMAPQBcACIAXwA1ADEAbQAtACAAcABsAHMAIABfADUAMQBtAHcAXAAiAD4APABEAEkAVgA+ADwAUwBQAEEATgAgAGMAbABhAHMAcwA9AFwAIgBoAGkAZABkAGUAbgBfAGUAbABlAG0AXAAiACAAaQBkAD0AXAAiAHUAXwAwAF8AMQBcACIAPgBZAG8AdQAgAGwAaQBrAGUAIAB0AGgAaQBzAC4APAAvAFMAUABBAE4APgA8AFMAUABBAE4AIABpAGQAPQBcACIAdQBfADAAXwAyAFwAIgA+ADEANAAsADIAMwA5ADwALwBTAFAAQQBOAD4APAAvAEQASQBWAD4APAAvAFQARAA+ADwALwBUAFIAPgA8AC8AVABCAE8ARABZAD4APAAvAFQAQQBCAEwARQA+ADwALwBEAEkAVgA+ADwALwBUAEQAPgA8AC8AVABSAD4APAAvAFQAQgBPAEQAWQA+ACIALAAiAHUAcgBsACIAOgAiAGgAdAB0AHAAcwA6AC8ALwB3AHcAdwAuAGYAYQBjAGUAYgBvAG8AawAuAGMAbwBtAC8AcABsAHUAZwBpAG4AcwAvAGwAaQBrAGUAXwBiAG8AeAAuAHAAaABwACIAfQAKAA==</StringHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration_Courses/UsersInCourses" />
+      </Headers>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="v3" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\DataUsers\VioletaUsers3.csv">
+      <Tables>
+        <DataSourceTable Name="VioletaUsers3#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

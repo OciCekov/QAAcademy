@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="ApproveStudentApplicationCertificate" Id="1d574857-02d4-4408-a5e4-437795424ca4" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.14e7f1d4-d280-4b45-8d7d-d9e00a6164da.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="7c7618d6-0985-4d07-92ff-0c83a5a4ea0a" Version="1.1" Url="{{TestInvironment}}/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="35f2e7e0-cebe-4709-8507-060b2a5cca22" Version="1.1" Url="{{TestInvironment}}/Users/Auth/Login" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{TestInvironment}}/" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="5e27ec58-c150-4680-8c01-4e7abd964132" Version="1.1" Url="{{TestInvironment}}/Users/Auth/Login" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{TestInvironment}}/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{TestInvironment}}/Users/Auth/Login" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="UsernameOrEmail" Value="AdminDummy" RecordedValue="AdminDummy" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="123456" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="6a26a3cf-80da-4805-a674-587c435831e5" Version="1.1" Url="{{TestInvironment}}/Administration/Navigation" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{TestInvironment}}/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ea823764-2733-461d-93fc-5d894a259ce8" Version="1.1" Url="{{TestInvironment}}/Administration_Certificates/CertificateRequests" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{TestInvironment}}/Administration/Navigation" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam662.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam753.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam844.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam935.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1026.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="age=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; hre" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="1bc5fece-2b03-4111-8648-7557fb666b8f" Version="1.1" Url="{{TestInvironment}}/Administration_Certificates/CertificateRequests/ListOfUsers" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{TestInvironment}}/Administration_Certificates/CertificateRequests" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="skip" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam1026.page}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Blogic%5D" Value="and" RecordedValue="and" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5Bvalue%5D" Value="{{v3.VioletaUsers3#csv.username}}" RecordedValue="goshor1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5Boperator%5D" Value="startwith" RecordedValue="startwith" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5Bfield%5D" Value="Username" RecordedValue="Username" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="filter%5Bfilters%5D%5B0%5D%5BignoreCase%5D" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="c64452a2-c6bb-477a-9fda-3ba87a82aa6d" Version="1.1" Url="{{TestInvironment}}/Administration_Certificates/CertificateRequests/CertificateRequest_Read" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{TestInvironment}}/Administration_Certificates/CertificateRequests" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="sort" Value="CertificateRequestId-desc" RecordedValue="CertificateRequestId-desc" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam2.page}}" UrlEncode="True" />
+        <FormPostParameter Name="pageSize" Value="25" RecordedValue="25" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="group" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="filter" Value="Username~eq~'{{v3.VioletaUsers3#csv.username}}'" RecordedValue="Username~eq~'goshor1'" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="1497bb6b-c505-4902-b369-bf0c93e777f6" Version="1.1" Url="{{TestInvironment}}/Administration_Certificates/CertificateRequests/CertificateRequest_Update" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{TestInvironment}}/Administration_Certificates/CertificateRequests" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="sort" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="group" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="filter" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="CertificateRequestId" Value="5" RecordedValue="5" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="CourseTrackId" Value="11" RecordedValue="11" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="CourseTrackName" Value="QaVRedcurrant" RecordedValue="QaVRedcurrant" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="CourseTrackNameEn" Value="QaVRedcurrant" RecordedValue="QaVRedcurrant" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="CourseTrackUrl" Value="QaVRedcurrant" RecordedValue="QaVRedcurrant" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UserId" Value="" RecordedValue="362" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Username" Value="{{v3.VioletaUsers3#csv.username}}" RecordedValue="goshor1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UserFullname" Value="Гошор Гошоров Гошоров" RecordedValue="Гошор Гошоров Гошоров" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Email" Value="{{v3.VioletaUsers3#csv.email}}" RecordedValue="goshor1@test.com" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="JudgmentUserId" Value="147" RecordedValue="147" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="RequestInformation" Value="{&quot;CourseTrackId&quot;:11,&quot;Name&quot;:&quot;QaVRedcurrant&quot;,&quot;Description&quot;:&quot;QaVRedcurrant&quot;,&quot;UrlName&quot;:null,&quot;AlreadyApplied&quot;:false,&quot;ShortDescription&quot;:&quot;QaVRedcurrant&quot;,&quot;CoursesInTrack&quot;:[],&quot;RequiredCourses&quot;:[],&quot;CourseTrackTreeHeight&quot;:1,&quot;RequiredCoursesCount&quot;:0,&quot;OptionalCoursesCount&quot;:0,&quot;PassedCourses&quot;:0,&quot;NotFullyCoveredCourses&quot;:0,&quot;PassedBonusCoursesCount&quot;:0,&quot;BonusCoursesCount&quot;:0,&quot;CanApply&quot;:false,&quot;IsCourseTrackActiveForUser&quot;:false,&quot;ApprovedCertificate&quot;:null,&quot;JsonDataForTrackDisplay&quot;:null}" RecordedValue="{&quot;CourseTrackId&quot;:11,&quot;Name&quot;:&quot;QaVRedcurrant&quot;,&quot;Description&quot;:&quot;QaVRedcurrant&quot;,&quot;UrlName&quot;:null,&quot;AlreadyApplied&quot;:false,&quot;ShortDescription&quot;:&quot;QaVRedcurrant&quot;,&quot;CoursesInTrack&quot;:[],&quot;RequiredCourses&quot;:[],&quot;CourseTrackTreeHeight&quot;:1,&quot;RequiredCoursesCount&quot;:0,&quot;OptionalCoursesCount&quot;:0,&quot;PassedCourses&quot;:0,&quot;NotFullyCoveredCourses&quot;:0,&quot;PassedBonusCoursesCount&quot;:0,&quot;BonusCoursesCount&quot;:0,&quot;CanApply&quot;:false,&quot;IsCourseTrackActiveForUser&quot;:false,&quot;ApprovedCertificate&quot;:null,&quot;JsonDataForTrackDisplay&quot;:null}" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="IsApproved" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam3.IsApproved}}" UrlEncode="True" />
+        <FormPostParameter Name="DateOfApplication" Value="11/11/2014 22:02:19" RecordedValue="11/11/2014 22:02:19" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="f4f7f854-58b4-44e3-ae83-e94f5ab7d6e7" Version="1.1" Url="{{TestInvironment}}/Users/Auth/LogOut" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{TestInvironment}}/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="{{TestInvironment}}/Administration_Certificates/CertificateRequests" />
+      </Headers>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="v3" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\..\..\DataUsers\VioletaUsers3.csv">
+      <Tables>
+        <DataSourceTable Name="VioletaUsers3#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ContextParameters>
+    <ContextParameter Name="TestInvironment" Value="http://test.telerikacademy.com" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

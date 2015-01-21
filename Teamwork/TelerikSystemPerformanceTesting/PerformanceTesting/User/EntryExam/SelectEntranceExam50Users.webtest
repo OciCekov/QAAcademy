@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="SelectEntranceExam50Users_cur4" Id="7a3b4e16-eb79-45ea-b2e6-5de483ed1200" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.ccf3aa89-6947-4331-83a8-2332ed5e0954.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="ce77479a-7c41-4ab9-b6c5-3359f7b37cb9" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="POST" Guid="efa0b5d2-279b-430d-ad65-799409d06680" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Users/Auth/Login" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="UsernameOrEmail" Value="{{UsernamePassword.50Gosho#csv.username}}" RecordedValue="Pesho1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="{{UsernamePassword.50Gosho#csv.password}}" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="a9732706-084c-4fb0-92e7-71ef58ec616c" Version="1.1" Url="http://test.telerikacademy.com/SoftwareAcademy/Candidate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="0e92b8a8-c4e7-45a3-a82e-7c0203732993" Version="1.1" Url="http://test.telerikacademy.com/Content/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="ggg1CeQWGSFNvlbcqguLiUNRqIMRm0BYkWB6V0YxymM1" RecordedValue="ggg1CeQWGSFNvlbcqguLiUNRqIMRm0BYkWB6V0YxymM1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="88958802-5caf-4706-a0f7-55dcbf03b22a" Version="1.1" Url="http://test.telerikacademy.com/bundles/modernizr" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1" RecordedValue="wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="a4022962-cbab-4366-83ba-edbcd3d653a3" Version="1.1" Url="http://test.telerikacademy.com/bundles/kendo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="GHvKNwZNIx3rH4YaZA01Qjtm0U7BUuMu1HvC8crgjvo1" RecordedValue="GHvKNwZNIx3rH4YaZA01Qjtm0U7BUuMu1HvC8crgjvo1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="70dcebd2-7604-4147-a79e-14069ce16f70" Version="1.1" Url="http://test.telerikacademy.com/bundles/TILS/global" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="7S_imD-Fei-ER6okxJsCE4PPdjnktgVEs4xRmrudt6s1" RecordedValue="7S_imD-Fei-ER6okxJsCE4PPdjnktgVEs4xRmrudt6s1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="02c72907-903e-4c96-8bf4-a5b01882766a" Version="1.1" Url="http://test.telerikacademy.com/bundles/jqueryval" ThinkTime="85" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="ums85MbnqXU8soaxwdpw--u-mN1Du6o0I-3R9-82qdQ1" RecordedValue="ums85MbnqXU8soaxwdpw--u-mN1Du6o0I-3R9-82qdQ1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Request Method="POST" Guid="b666f841-b30f-4dc9-bd9d-774ed0f8d31c" Version="1.1" Url="http://test.telerikacademy.com/SoftwareAcademy/Candidate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/SoftwareAcademy/Candidate/ThankYouForYourCandidature" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="MAX_FILE_SIZE" Value="1048576" RecordedValue="1048576" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FirstName" Value="муууу" RecordedValue="муууу" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="SecondName" Value="асдасд" RecordedValue="асдасд" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="LastName" Value="муууууу" RecordedValue="муууууу" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="IsMale" Value="False" RecordedValue="False" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="WorkEducationStatusId" Value="7" RecordedValue="7" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="BirthDay" Value="07/06/1944" RecordedValue="07/06/1944" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Email" Value="{{UsernamePassword.50Gosho#csv.mail}}" RecordedValue="napesho@pesho.som" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Phone" Value="0888888888" RecordedValue="0888888888" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="CityId" Value="19" RecordedValue="19" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UniversityId" Value="61" RecordedValue="61" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="FacultyName" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="UniversitySpeciality" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="SchoolName" Value="hmmmm" RecordedValue="hmmmm" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Question_1" Value="fdg" RecordedValue="fdg" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Question_2" Value="sdfgh" RecordedValue="sdfgh" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Question_3" Value="sdf" RecordedValue="sdf" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Question_4" Value="sdf" RecordedValue="sdf" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Question_5" Value="sdfg" RecordedValue="sdfg" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Answer_3" Value="on" RecordedValue="on" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_8" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Answer_11" Value="on" RecordedValue="on" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_15" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Answer_17" Value="on" RecordedValue="on" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Answer_27" Value="on" RecordedValue="on" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_31" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_32" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_33" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_34" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_35" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_36" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_37" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Text_Field_For_Answer_38" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Question_10" Value="Да, но не бях приет" RecordedValue="Да, но не бях приет" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Answer_43" Value="on" RecordedValue="on" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="AcceptTerms" Value="True" RecordedValue="True" CorrelationBinding="" UrlEncode="True" />
+        <FileUploadParameter Name="Picture" FileName="kiss.png" ContentType="image/png" GenerateUniqueName="True" UseGuids="False" FileUploadName="kiss.png" HtmlEncodeFileName="True" />
+        <FileUploadParameter Name="CV" FileName="CV.docx" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" GenerateUniqueName="True" UseGuids="False" FileUploadName="CV.docx" HtmlEncodeFileName="True" />
+        <FileUploadParameter Name="CoverLetter" FileName="CL.docx" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document" GenerateUniqueName="True" UseGuids="False" FileUploadName="CL.docx" HtmlEncodeFileName="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="16b1e130-6153-4439-9165-eb05800dc9e4" Version="1.1" Url="http://test.telerikacademy.com/SoftwareAcademy/Candidate/ThankYouForYourCandidature" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="5c47dff3-70e2-4bb0-a6c3-3b14f22c4093" Version="1.1" Url="http://test.telerikacademy.com/SoftwareAcademy/Candidate/ExamDateSelect" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate/ThankYouForYourCandidature" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="f2de4803-8d3b-4d58-a71c-22b79849ad31" Version="1.1" Url="http://test.telerikacademy.com/SoftwareAcademy/Candidate/ExamDateSelect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/SoftwareAcademy/Candidate/ExamDateSelected" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/SoftwareAcademy/Candidate/ExamDateSelect" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="selectedId" Value="{{$HIDDEN1.selectedId}}" RecordedValue="35" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="UsernamePassword" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\..\DataUsers\50Gosho.csv">
+      <Tables>
+        <DataSourceTable Name="50Gosho#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

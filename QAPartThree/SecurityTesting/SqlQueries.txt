@@ -1,0 +1,5 @@
+Well I couldn't figure out how to check if my sql scripts work in my mind they should be like this: 
+1.'OR''=';UPDATE users SET password = 123456
+2 'OR''=';DROP TABLE users
+3. 'OR''=';DELETE * FROM users 
+

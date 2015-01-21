@@ -1,0 +1,2 @@
+With abv password  + hydra I failed, so simple guessing gave 12345678  
+videos from jing can be oppened with kmPlayer, or at least it works for me. 

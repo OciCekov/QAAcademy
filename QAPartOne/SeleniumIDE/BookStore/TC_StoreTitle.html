@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.book.store.bg/" />
+<title>TC_StoreTitle</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">TC_StoreTitle</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyValue</td>
+	<td>//html/body/div[3]/div[1]/div[1]/div[2]/form/table/tbody/tr[1]/td[1]/label/input</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@name='sin'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr[2]/td/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=srchstr</td>
+	<td>Javascript</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.forms-buttons-submit-search</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=h3</td>
+	<td>JavaScript For Dummies</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=h3</td>
+	<td>bookTitle</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.forms-buttons-order-list</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Цена за доставка</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPopUp</td>
+	<td>popup</td>
+	<td>30000</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>name=popup</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=font</td>
+	<td>Изберете града, в който се намирате за калкулация на цената за доставка.</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

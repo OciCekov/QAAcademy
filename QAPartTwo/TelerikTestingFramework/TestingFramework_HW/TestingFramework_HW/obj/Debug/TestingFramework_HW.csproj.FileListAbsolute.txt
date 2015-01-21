@@ -1,0 +1,5 @@
+E:\QuallityAssurance\2.QApart_2\MyHomeworkS\TestingFramework_HW\TestingFramework_HW\bin\Debug\TestingFramework_HW.dll
+E:\QuallityAssurance\2.QApart_2\MyHomeworkS\TestingFramework_HW\TestingFramework_HW\bin\Debug\TestingFramework_HW.pdb
+E:\QuallityAssurance\2.QApart_2\MyHomeworkS\TestingFramework_HW\TestingFramework_HW\obj\Debug\TestingFramework_HW.csprojResolveAssemblyReference.cache
+E:\QuallityAssurance\2.QApart_2\MyHomeworkS\TestingFramework_HW\TestingFramework_HW\obj\Debug\TestingFramework_HW.dll
+E:\QuallityAssurance\2.QApart_2\MyHomeworkS\TestingFramework_HW\TestingFramework_HW\obj\Debug\TestingFramework_HW.pdb

@@ -1,0 +1,118 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>uimap.sikuli\google_map.sikuli</h2> <a href="uimap.sikuli\google_map.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">from</span> sikuli <span class="kw">import</span> *
+
+<span class="kw">class</span> Google:
+    search_input=<img src="search_input-1.png" />
+    result_picture=<img src="result.png" />
+    google_logo=<img src="google_logo.png" />
+
+<span class="kw">class</span> Capitals:
+    italy= <img src="italy.png" />    <span class="cmt">#rome</span>
+    spain=    <img src="spain.png" /> <span class="cmt">#madrid</span>
+    norway=   <img src="norway.png" />  <span class="cmt">#Oslo</span>
+    denmark= <img src="denmark.png" />   <span class="cmt">#copenhagen</span>
+    southKorea= <img src="southKorea.png" /> <span class="cmt">#seoul</span>
+    sweden=      <img src="sweden.png" />  <span class="cmt">#stockholm</span>
+    unitedStates =  <img src="us.png" />   <span class="cmt">#washington</span>
+    rome = <img src="rome-1.png" />
+    madrid =<img src="madrid.png" />
+    oslo =<img src="oslo.png" />
+    copenhagen = <img src="copenhagen.png" />
+    seoul = <img src="seoul.png" />
+    stockholm = <img src="stockholm.png" />
+    washington = <img src="washington.png" />
+    result = <img src="result-1.png" />
+<span class="kw">class</span> Minimize:
+    minimize_button = Pattern(<img src="minimize_button.png" />).similar(<span class="dig">0.80</span>)
+
+<span class="kw">class</span> Skype:
+    skype_button = <img src="skype_button.png" />
+    skype_mutualChat = <img src="skype_mutualChat.png" />
+    skype_result = <img src="skype_result.png" />
+
+<span class="kw">class</span> Facebook:
+    facebook_chatIcon = <img src="chatIcon.png" />
+    facebook_venci = <img src="facebook_venci.png" />
+    facebook_result = <img src="facebook_result.png" />
+
+<span class="kw">class</span> Calculator:
+    calc_icon = <img src="calc_icon.png" />
+    calc_result11 = <img src="calc_result11.png" />
+    calc_result4 = <img src="calc_result4.png" />
+    calc_result5 = <img src="calc_result5.png" />
+    calc_result150=<img src="calc_result150.png" />
+    calc_zeroDivision = <img src="calc_zeroDivision.png" />
+</pre>
+</body>
+</html>

@@ -1,0 +1,18 @@
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\bin\Debug\TelerikLoginHW.dll
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\bin\Debug\TelerikLoginHW.pdb
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.dll
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.Support.dll
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.xml
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.Support.xml
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\obj\Debug\TelerikLoginHW.csprojResolveAssemblyReference.cache
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\obj\Debug\TelerikLoginHW.dll
+E:\QuallityAssurance\1. QApart_1\MyHomeworkS\TelerikLoginHW\TelerikLoginHW\obj\Debug\TelerikLoginHW.pdb
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\bin\Debug\TelerikLoginHW.dll
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\bin\Debug\TelerikLoginHW.pdb
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.dll
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.Support.dll
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.xml
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\bin\Debug\WebDriver.Support.xml
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\obj\Debug\TelerikLoginHW.csprojResolveAssemblyReference.cache
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\obj\Debug\TelerikLoginHW.dll
+E:\Drive\Бичета и кравки 1\TelerikLoginHW\TelerikLoginHW\obj\Debug\TelerikLoginHW.pdb

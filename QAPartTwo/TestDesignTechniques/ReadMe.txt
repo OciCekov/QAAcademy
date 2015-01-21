@@ -1,0 +1,1 @@
+From what I understood, for the first two tasks we only needed to write test cases, that's why only the last one is in solution (with monopoly).

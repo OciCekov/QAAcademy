@@ -1,1 +1,1 @@
-java -jar %~dp0ApplausePractice.jar %*
+java -jar %~dp0Practice.jar %*
